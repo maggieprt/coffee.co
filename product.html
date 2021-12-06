@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/product.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">
+                <h1>COFFEE. CO</h1>
+
+                <div class="navbar-links">
+                    <a class="navbar-link" href="shop.html">Shop</a>
+                    <a class="navbar-link">Subscription</a>
+                    <a class="navbar-link">Gear</a>
+                    <a class="navbar-link">Learn</a>
+                    <a class="navbar-link">About</a>
+                    <div class="dropdown">
+                        <a class="navbar-cart">
+                            <img src="./images/cart@3x.svg" alt="cart">
+                        </a>
+
+                        <div class="dropdown-content">
+                            <h2>Your Cart</h2>
+                            <div style="margin-bottom: 20px;">1 item</div>
+                            <div id="divider"></div>
+                            <div class="dropdown-details">
+                                <img class="cart-image" src="./images/9-RoseLondonFogBlend_3e7ca875-89c2-40c5-b906-082453a15c03_1728x.svg" alt="cart-image">
+                                <div class="dropdown-details-desc">
+                                    <div class="dropdown-item-name">Purple Label Expresso Blend</div>
+                                    <div class="cart-interaction">
+                                        <div>300g</div>
+                                        <div class="cart-button-area">
+                                            <a id="minus" class="ind">-</a>
+                                            <div class="number" class="ind">0</div>
+                                            <a id="plus" class="ind">+</a>
+                                        </div>
+                                    </div>
+                                    <div>$18.00 CAD</div>
+                                </div>
+                                <img src="./images/trash@3x.svg" alt="trash" class="delete">
+                            </div>
+                            <div id="divider" style="margin-bottom: 48px;"></div>
+                            <div class="subtotal">
+                                <div class="subtotal-title">SUBTOTAL</div>
+                                <div class="subtotal-number">$0.00 CAD</div>
+                            </div>
+                            <button class="cart-button" onclick="window.location.href='./checkout.html'">Continue to checkout</button>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+        </nav>
+
+        <div>
+            <h3 class="path">Home / Shop / Expresso Blends / Purple Label Expresso Blend</h3>
+        </div>
+
+        <div class="product">
+            <h2 class="product-title">Purple Label<br>Expresso Blend</h1>
+            <div class="product-details">
+                <img src="./images/product-photo.png" alt="product image" class="product-image">
+                <div class="product-desc">
+                    <div id="divider"></div>
+                    <div class="product-info">
+                        <div class="product-price">$18.00 CAD</div>
+                        <div class="product-weight">300g</div>
+                    </div>
+                    <div class="product-quantity">
+                        <div class="product-quantity__title">Quantity</div>
+                        <input type="number" class="product-quantity__input" max="100" placeholder="0" min="0">
+                    </div>
+                    <button class="product-button" onclick="addToCart()">Add to cart</button>
+                    <div id="divider"></div>
+                    <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="divider"></div>
+        
+        <div class="details">
+            <div class="details-block">
+                <img class="details-img1" src="./images/joanna-wolf-pack-arts-ViH8TCQY12c-unsplash.png" alt="beans">
+                <div class="details-content">
+                    <h2 class="details-title">Subscription</h2>
+                    <div class="details-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui. Elit sed vulputate mi sit amet mauris commodo.
+                    </div>
+                    <button class="details-button">Learn more</button>
+                </div>
+            </div>
+    
+            <div class="details-block-2">
+                <div class="details-content">
+                    <h2 class="details-title">Learn about coffee</h2>
+                    <div class="details-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui. Elit sed vulputate mi sit amet mauris commodo.
+                    </div>
+                    <button class="details-button">Learn more</button>
+                </div>
+                <img class="details-img2" src="./images/william-moreland-O6l12PKoQsc-unsplash.png" alt="beans">
+            </div>
+    
+            <div id="divider"></div>
+        </div>
+    
+        <div class="mission">
+            <div class="details-block">
+                <img class="mission-img" src="./images/nathan-dumlao-6VhPY27jdps-unsplash.png" alt="beans">
+                <div class="details-content">
+                    <h2 class="mission-title">Our Mission</h2>
+                    <div class="details-desc1">Good coffee at home.</div>
+                    <div class="details-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui. Elit sed vulputate mi sit amet mauris commodo.
+                        Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui.                     
+                    </div>
+                </div>
+            </div>
+            <div id="divider"></div>
+        </div>
+    
+        <div class="footer">
+            <div class="footer-links">
+                <h2 class="footer-titles">LEARN MORE</h2>
+                <a class="footer-link">Contact Us</a>
+                <a class="footer-link">Our Return Policy</a>
+                <a class="footer-link">Delivery and Shipping</a>
+                <a class="footer-link">Q & A</a>
+                <a class="footer-link">Privacy Policy</a>
+                <a class="footer-link">Terms & Conditions</a>
+            </div>
+    
+            <div>
+                <h2 class="footer-titles">SIGN UP FOR OUR NEWSLETTER</h2>
+                <div class="footer-inputbox">
+                    <input type="email" class="footer-email-input" placeholder="example@email.com">
+                    <img src="./images/mail@3x.svg" class="footer-mail">
+                </div>
+                <div class="icons">
+                    <img src="./images/facebook@3x.svg" alt="facebook">
+                    <img src="./images/instagram@3x.svg"alt="instagram">
+                    <img src="./images/twitter@3x.svg"alt="twitter">
+                </div>
+            </div>
+        </div>
+        <script src="./js/product.js"></script>
+    </body>
+</html>

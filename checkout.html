@@ -1,0 +1,225 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Checkout Page</title>
+  <link rel="stylesheet" type="text/css" href="./css/coffeestyle.css">
+  <link rel="stylesheet" href="./css/product.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="HTML">
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">
+        <h1>COFFEE. CO</h1>
+
+        <div class="navbar-links">
+            <a class="navbar-link" href="shop.html">Shop</a>
+            <a class="navbar-link">Subscription</a>
+            <a class="navbar-link">Gear</a>
+            <a class="navbar-link">Learn</a>
+            <a class="navbar-link">About</a>
+            <div class="dropdown">
+                <a class="navbar-cart">
+                    <img src="./images/cart@3x.svg" alt="cart">
+                </a>
+
+                <div class="dropdown-content">
+                    <h2>Your Cart</h2>
+                    <div style="margin-bottom: 20px;">1 item</div>
+                    <div id="divider"></div>
+                    <div class="dropdown-details">
+                        <img class="cart-image" src="./images/9-RoseLondonFogBlend_3e7ca875-89c2-40c5-b906-082453a15c03_1728x.svg" alt="cart-image">
+                        <div class="dropdown-details-desc">
+                            <div class="dropdown-item-name">Purple Label Expresso Blend</div>
+                            <div class="cart-interaction">
+                                <div>300g</div>
+                                <div class="cart-button-area">
+                                    <a id="minus" class="ind">-</a>
+                                    <div class="number" class="ind">0</div>
+                                    <a id="plus" class="ind">+</a>
+                                </div>
+                            </div>
+                            <div>$18.00 CAD</div>
+                        </div>
+                        <img src="./images/trash@3x.svg" alt="trash" class="delete">
+                    </div>
+                    <div id="divider" style="margin-bottom: 48px;"></div>
+                    <div class="subtotal">
+                        <div class="subtotal-title">SUBTOTAL</div>
+                        <div class="subtotal-number">$0.00 CAD</div>
+                    </div>
+                    <button class="cart-button">Continue to checkout</button>
+                </div>
+
+            </div>
+        </div>
+    </a>
+</nav>
+<!---leftside order summary --->
+
+    <div class="mainscreen">
+      <div class="card">
+        <div class="leftside">
+            <h2>Order Summary</h2>
+            <hr>
+            <br>
+            <img src="./images/9-RoseLondonFogBlend_3e7ca875-89c2-40c5-b906-082453a15c03_1728x.svg" width="200" height="200">
+           <p><b>Purple Label Expresso Blend</b></p>
+
+<!---these are the ID tags for the function --->
+
+            <p> $ <span id="productPrice">18.00</span></p>
+            <p>Quantity:</p>
+            <input id="productQuantity" type="number"
+       value="5" min="1">
+        <button class="removeproduct" id="remove">
+        Remove
+      </button>
+
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br> 
+        <p><b>Subtotal:</b> $<span id="subtotal">90.00</span></p>
+        <p><b>Tax: </b> $<span id="tax">11.70</span></p>
+        <p><b>Total: </b> $<span id="total">101.70</span></p>
+
+        </div>
+
+
+<!---rightside checkout form --->
+
+        <div class="rightside">
+          <form action="">
+            <h1>Check Out</h1>
+            <hr>
+            <h2>Contact Information</h2>
+            <p>Name</p>
+            <input type="text" class="inputbox" id="name" required />
+            <p>Email Address</p>
+            <input type="text" class="inputbox" id="email" required />
+
+
+            <h2>Shipping</h2>
+            <p>Address</p>
+            <input type="text" class="inputbox" id="address" required />
+            <p>Postal Code</p>
+            <input type="text" class="inputbox" id="postalcode" required />
+
+             <p>Country</p>
+              <select class="inputbox" name="country" id="country" required>
+              <option value="">Choose...</option>
+              <option value="Canada">Canada</option>
+            </select>
+
+             <p>City</p>
+            <input type="text" class="inputbox" id="city" required />
+            <div>
+
+            </div>
+            <h2>Payment Information</h2>
+            <p>Cardholder Name</p>
+            <input type="text" class="inputbox" id="cardname" required />
+            <p>Card Number</p>
+            <input type="number" class="inputbox" id="cardnumber" id="card_number" required />
+
+            <p>Card Type</p>
+            <select class="inputbox" name="card_type" id="cardtype" required>
+              <option value="">--Select a Card Type--</option>
+              <option value="Visa">Visa</option>
+              <option value="American">American Express</option>
+              <option value="MasterCard">MasterCard</option>
+            </select>
+
+<div class="expcvv">
+
+            <p class="expcvv_text">Expiry</p>
+            <input type="date" class="inputbox" id="expdate" id="exp_date" required />
+
+            <p class="expcvv_text2">CVV</p>
+            <input type="password" type="num" class="inputbox" name="cvv" id="cvv" required />
+        </div>
+            <p></p>
+
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="same-address">
+                <label class="custom-control-label" for="same-address">Billing address is the same as my shipping address</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="save-info">
+                <label class="custom-control-label" for="save-info">Save this information for next time</label>
+              </div>
+
+              <br>
+              <br>
+
+            <button type="submit" class="button" id="checkout">Check out</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+<script>
+
+var subtotal=document.querySelector("#subtotal");
+var productPrice=document.querySelector("#productPrice");
+var tax=document.querySelector("#tax");
+var total=document.querySelector("#total");
+var productQuantity=document.querySelector("#productQuantity");
+
+productQuantity.addEventListener("change", calc);
+
+var taxRate = 0.13;
+
+
+var checkout=document.querySelector("#checkout");
+checkout.addEventListener("click", validateForm);
+
+var remove=document.querySelector("#remove");
+remove.addEventListener("click", removeproduct);
+
+function validateForm(){
+    var inputs = document.getElementsByTagName('input');
+    for (var i = 0; i < inputs.length; i++) {
+        // only validate the inputs that have the required attribute
+        if(inputs[i].hasAttribute("required")){
+            if(inputs[i].value == ""){
+                // found an empty field that is required
+                alert("Please fill all required fields");
+                return false;
+            }
+        }
+    }
+    alert("Purchase complete");
+    return true;
+}
+
+
+// remove product//
+
+function removeproduct(){
+  alert("Your cart is empty");
+}
+
+function calc() {
+  subtotal.textContent= (parseFloat(productPrice.textContent) * this.value).toFixed(2);
+  tax.textContent= (taxRate * parseFloat(subtotal.textContent)).toFixed(2);
+  total.textContent= (parseFloat(subtotal.textContent) + parseFloat(tax.textContent)).toFixed(2);
+}
+
+  
+</script>
+
+
+</body>
+
+</html>

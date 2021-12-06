@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/product.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="./css/nav.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">
+            <h1>COFFEE. CO</h1>
+
+            <div class="navbar-links">
+                <div class="dropdown" onmouseover="hover()" onmouseout="hover()">
+                    <a class="navbar-shop">Shop</a>
+
+                    <div class="dropdown-shop">
+                        <a class="dropdown-link">All</a>
+                        <a class="dropdown-link" href="./shop.html">Expresso Blends</a>
+                        <a class="dropdown-link">Filter Blends</a>
+                        <a class="dropdown-link">Blends</a>
+                        <a class="dropdown-link">Single Origins</a>
+                    </div>
+                </div>
+                <a class="navbar-link">Subscription</a>
+                <a class="navbar-link">Gear</a>
+                <a class="navbar-link">Learn</a>
+                <a class="navbar-link">About</a>
+                <div class="dropdown">
+                    <a class="navbar-cart">
+                        <img src="./images/cart@3x.svg" alt="cart">
+                    </a>
+
+                    <div class="dropdown-content">
+                        <h2>Your Cart</h2>
+                        <div style="margin-bottom: 20px;">1 item</div>
+                        <div id="divider"></div>
+                        <div class="dropdown-details">
+                            <img class="cart-image" src="./images/9-RoseLondonFogBlend_3e7ca875-89c2-40c5-b906-082453a15c03_1728x.svg" alt="cart-image">
+                            <div class="dropdown-details-desc">
+                                <div class="dropdown-item-name">Purple Label Expresso Blend</div>
+                                <div class="cart-interaction">
+                                    <div>300g</div>
+                                    <div class="cart-button-area">
+                                        <a id="minus" class="ind">-</a>
+                                        <div class="number" class="ind">0</div>
+                                        <a id="plus" class="ind">+</a>
+                                    </div>
+                                </div>
+                                <div>$18.00 CAD</div>
+                            </div>
+                            <img src="./images/trash@3x.svg" alt="trash" class="delete">
+                        </div>
+                        <div id="divider" style="margin-bottom: 48px;"></div>
+                        <div class="subtotal">
+                            <div class="subtotal-title">SUBTOTAL</div>
+                            <div class="subtotal-number">$0.00 CAD</div>
+                        </div>
+                        <button class="cart-button">Continue to checkout</button>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+    </nav>
+
+    <div class="hero-image"></div>
+
+    <div class="details">
+        <div class="details-block">
+            <img class="details-img1" src="./images/joanna-wolf-pack-arts-ViH8TCQY12c-unsplash.png" alt="beans">
+            <div class="details-content">
+                <h2 class="details-title">Subscription</h2>
+                <div class="details-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui. Elit sed vulputate mi sit amet mauris commodo.
+                </div>
+                <button class="details-button">Learn more</button>
+            </div>
+        </div>
+
+        <div class="details-block-2">
+            <div class="details-content">
+                <h2 class="details-title">Learn about coffee</h2>
+                <div class="details-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus arcu bibendum. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Tellus molestie nunc non blandit massa enim nec dui. Elit sed vulputate mi sit amet mauris commodo.
+                </div>
+                <button class="details-button">Learn more</button>
+            </div>
+            <img class="details-img2" src="./images/william-moreland-O6l12PKoQsc-unsplash.png" alt="beans">
+        </div>
+
+
+
+
+        <section class="container">
+        <p class="sortby">SORT BY: FEATURED</p>
+
+        <!-- Products container -->
+        <div class="products-section">
+
+            <!-- First row -->
+            <!-- Products design to make it clickable so it can be opened in a new tab -->
+            <div class="product">
+                <!-- Products detail link with their id -->
+                <a href="#"><img src="./images/product_5.png" alt="">
+                    <p class="product__title">Yellow Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_2.png" alt="Image not available">
+                    <p class="product__title">Red Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_3.png" alt="">
+                    <p class="product__title">Pink Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_4.png" alt="">
+                    <p class="product__title">Green Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+            <!-- Second row -->
+            <div class="product">
+                <a href="#"><img src="./images/product_1.png" alt="">
+                    <p class="product__title">Yellow Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_2.png" alt="">
+                    <p class="product__title">Red Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_3.png" alt="">
+                    <p class="product__title">Pink Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="#">
+                    <img src="./images/product_4.png" alt="">
+                    <p class="product__title">Green Expresso Blend</p>
+                    <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </a>
+            </div>
+
+        </div>
+
+            <button class="details-button">See more</button>
+    </div>
+
+    <div id="divider"></div>
+
+    <div class="footer">
+        <div class="footer-links">
+            <h2 class="footer-titles">LEARN MORE</h2>
+            <a class="footer-link">Contact Us</a>
+            <a class="footer-link">Our Return Policy</a>
+            <a class="footer-link">Delivery and Shipping</a>
+            <a class="footer-link">Q & A</a>
+            <a class="footer-link">Privacy Policy</a>
+            <a class="footer-link">Terms & Conditions</a>
+        </div>
+
+        <div>
+            <h2 class="footer-titles">SIGN UP FOR OUR NEWSLETTER</h2>
+            <div class="footer-inputbox">
+                <input type="email" class="footer-email-input" placeholder="example@email.com">
+                <img src="./images/mail@3x.svg" class="footer-mail">
+            </div>
+            <div class="icons">
+                <img src="./images/facebook@3x.svg" alt="facebook">
+                <img src="./images/instagram@3x.svg"alt="instagram">
+                <img src="./images/twitter@3x.svg"alt="twitter">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>

@@ -1,0 +1,120 @@
+.details {
+    margin: 200px 0;
+}
+
+.details-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.details-block-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.details-img1{
+    margin-right: 150px;
+    width: calc( (100% - 150px)/2 );
+}
+
+.details-img2{
+    margin-left: 150px;
+    width: calc( (100% - 150px)/2 );
+}
+
+.details-title {
+    font-size: 2.4rem;
+    margin: 0;
+    margin-bottom: 2.4rem;
+}
+
+.details-desc1 {
+    font-size: 1.2rem;
+    line-height: 35px;
+    margin-bottom: 2.4rem;
+}
+
+.details-desc {
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.details-button {
+    margin-top: 2.4rem;
+    font-size: 1.2rem;
+    padding: 16px 60px;
+    background-color: #473732;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.mission {
+    margin-bottom: 200px;
+}
+
+.mission-img {
+    margin-bottom: 200px;
+    margin-right: 150px;
+    width: 100%;
+}
+
+.mission-title {
+    font-size: 2.4rem;
+    margin: 0;
+    margin-bottom: 2.4rem;
+    color: #8D7563;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.footer-titles {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.footer-links {
+    display: block;
+    width: 50%;
+}
+
+.footer-link {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.footer-email-input {
+    background-color: #D9C7B9;
+    font-size: 20px;
+    padding: 1.2rem 21px;
+    border: 0;
+    width: 500px;
+}
+
+.footer-inputbox {
+    position: relative;
+}
+
+.footer-mail {
+    position: absolute;
+    padding: 20px 36px;
+    right: 0px;
+    width: 35px;
+}
+
+.icons {
+    margin-top: 36px;
+}
+
+.icons img {
+    width: 32px;
+    margin-right: 16px;
+}

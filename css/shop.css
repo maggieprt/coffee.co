@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Loading all custom fonts */
+
+/* Main page generic settings */
+#divider {
+  width: 100%;
+  height: 1px;
+  background-color: #473732;
+}
+
+:root {
+  --color-primary: #473732;
+  --color-secondary: #8d7563;
+  --color-accent: #aa9f96;
+  --color-light: #eadfd7;
+  --color-dark: #d9c7b9;
+  --color-body: #eadfd7;
+}
+
+/* with border box the width remains the same with paddings and margin  */
+/* without border box the width changes with paddings and margin  */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  background-color: var(--color-accent);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0 5%;
+  background-color: #EADFD7;
+  color: #473732;
+}
+
+a {
+  color: #473732;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0rem 5rem;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav_brand {
+  font-family: MillardBold, Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  font-family: AvenirMedium, Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  padding: 0.5rem 2rem;
+}
+
+.nav__item img {
+  display: flex;
+  width: 25px;
+}
+
+.nav__item_icon {
+  padding: 1rem 2rem;
+}
+
+/* products headings to show page structure */
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings * {
+  margin: 0.5rem;
+}
+
+.sub-heading {
+  font-family: AvenirBold, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  color: var(--color-accent);
+}
+
+.title {
+  font-family: GabrielaSemibold, Arial, Helvetica, sans-serif;
+  color: var(--color-secondary);
+  font-size: 25pt;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 2.5rem;
+}
+
+.sortby {
+  color: var(--color-accent);
+  font-size: 12pt;
+  margin-bottom: 5rem;
+}
+
+/* Products list section */
+.products-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5em 3em;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product a {
+  text-align: center;
+}
+
+.product p {
+  margin-bottom: 0.25rem;
+}
+
+.product img {
+  width: 235px;
+  height: 325px;
+  border-radius: 10px;
+}
+
+.product__title {
+  font-family: AvenirBold, Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.product__description {
+  font-family: HelveticeNeue, Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  padding: 0rem 1rem;
+  font-weight: 100;
+  text-align: justify;
+}
+
+#divider {
+  margin-top: 100px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 10em;
+  display: flex;
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Media queries to make the page responsive */
+@media screen and (max-width: 1280px) {
+  .products-section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .products-section {
+    grid-template-columns: auto;
+  }
+}

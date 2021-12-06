@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="40" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_2" data-name="Repeat Grid 2" clip-path="url(#clip-path)">
+    <g transform="translate(-1492 -4095)">
+      <image id="mail_3x" data-name="mail@3x" width="40" height="40" transform="translate(1492 4095)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ1SURBVHgB7ZtLbtswEIaHRBEUXfUI7gnqBmibXZ1F29yi7gnSI6Q3aE5Q9QZd5rGIs8sDSHSD6AhZBVmJGQYhQDl2hnrL5v9tDFKUIX4mNeJQJgIAAAAAAGABalHlZDJ+u3FHu0qpCTeZ0BpjyKQmN/vHl2my6PgzQTtb45Ex6oQPjSgqTKaU2T44SzO/Vj9rFqUci3ocGHb2+LUFQV8/jqdxynGo0cad/uXXFARprXYpcniaffHLc1NMjSl6ikHpVcgph+dXitaQ7583jdRGE3gRCBKAIAEIEoAgAQgSCArzHA7/KpX/nl+nrCp2vZnnai+kbegImhqjb6wo++W0othr//bpQ2L7wpmKHyHnlJ1iKymqihhH1XvQSoiqI8ZR9yY9SFFNiHE0FcUGIapJMY6mw3wvotoQ4wgSxCH+nTHmH4XTiagaYhLbp5CGQYLs88/RxfV0KKLqiuH0zc/QZ7pSU6xvUV2KcVS6B3Utqg8xjlo36bZF9SnG0UgUa1rUEMQ4CrnmZTnasjlptxisEHJZilFVzquymA7pb9BqvixPFzplUXslRfEoLPVbJG1nGVrNB9WYehKNT6VldJIwa1BUZ2IcnWYUa4jqXIyjl5RrCVG9iXH0mpN+QVTvYhytRLGy+FHPKw+CQQhyDHFTANs+AhAkAEECECQAQQIQJABBAhAkAEECECQAQQIQJABBAqGv4IlvpK8rcyPIzChyeNcp9csFQbwjdUqRo7XZL5T9wpvX+R/+yChesoOzq8SvKAj6P0tvORe8TXFKyp76XmDpNubO1ibvm5P99917WmO4j6da0+yeZ8+MBwgBAAAAAAAQwgP60r7tD2ExAAAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+</svg>
